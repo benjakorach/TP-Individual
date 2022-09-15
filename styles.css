@@ -1,5 +1,5 @@
 
-table {
+table,.carousel {
   margin-top: 75px;
 }
 
@@ -7,9 +7,13 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-td a {
-  background-color: rgb(223, 235, 231) !important;
-  background-color: #ff5050;
+body {
+  background-color: rgb(223, 235, 231);
   color: #000;
   text-decoration: none;
+}
+
+.darkmode {
+  background-color: #000;
+  color: #fff;
 }
