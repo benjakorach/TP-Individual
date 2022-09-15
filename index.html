@@ -10,7 +10,6 @@
   <title>Wiki Crypto</title>
   <link href="styles.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/e2a2fac99f.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
 
 
 </head>
@@ -18,9 +17,9 @@
 <body class="d-flex flex-column h-100">
 
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><i class="fa-brands fa-btc"></i> Wiki Crypto</a>
+        <a class="navbar-brand" href="index.html"><i class="fa-brands fa-btc"></i> Wiki Crypto</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,7 +36,7 @@
               <a class="nav-link disabled">To be continued</a>
             </li>
           </ul>
-          <button class="btn btn-primary" onclick="darkmode()"> dark </button>
+          <button class="btn btn-primary" onclick="darkmode()"> <i class="fa-solid fa-moon"></i> </button>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-light" type="submit">Search</button>
@@ -60,27 +59,36 @@
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <iframe src="https://www.youtube.com/embed/ArvGjFkVoiA" frameborder="0"></iframe>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <iframe src="https://www.youtube.com/embed/DHEchgj9y0M" frameborder="0"></iframe>
+              <iframe src="https://www.youtube.com/embed/PgCdVWFkVfk" frameborder="0"></iframe>
+              <iframe src="https://www.youtube.com/embed/lPsnEleNc40" frameborder="0"></iframe>
+              <iframe src="https://www.youtube.com/embed/Z-ZE3cnmcMc" frameborder="0"></iframe>
+            </div>
+            <div class="carousel-item">
+              <iframe src="https://www.youtube.com/embed/bftLben94go" frameborder="0"></iframe>
+              <iframe src="https://www.youtube.com/embed/xwEt2hgpMO8" frameborder="0"></iframe>
+              <iframe src="https://www.youtube.com/embed/htXEEVkiIJ0" frameborder="0"></iframe>
+              <iframe src="https://www.youtube.com/embed/go1DNIw78jU" frameborder="0"></iframe>
+            </div>
+            <div class="carousel-item">
+              <iframe src="https://www.youtube.com/embed/aLh8jlYYvZA" frameborder="0"></iframe>
+              <iframe src="https://www.youtube.com/embed/2-uu9yrVaDE" frameborder="0"></iframe>
+              <iframe src="https://www.youtube.com/embed/Ye9ckbN_lqc" frameborder="0"></iframe>
+              <iframe src="https://www.youtube.com/embed/SKsJFBks0Xw" frameborder="0"></iframe>
+            </div>
           </div>
-          <div class="carousel-item">
-            <iframe src="https://www.youtube.com/embed/ArvGjFkVoiA" frameborder="0"></iframe>
-          </div>
-          <div class="carousel-item">
-            <iframe src="https://www.youtube.com/embed/ArvGjFkVoiA" frameborder="0"></iframe>
-          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
       <table class="table">
         <thead class="thead-dark">
@@ -163,7 +171,7 @@
     </div>
   </main>
 
-  <footer class="footer mt-auto py-3 bg-dark">
+  <footer class="footer mt-auto py-3 bg-light">
     <div class="container">
       <span class="text-muted">Wiki Crypto 2022. Todos los derechos reservados.</span>
       <a href="contact.html">Contacto</a>
